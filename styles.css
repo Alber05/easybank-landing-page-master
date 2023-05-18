@@ -199,7 +199,7 @@ header .mobile-menu__wrapper .mobile-menu ul li:hover {
   transition: opacity ease-in-out 0.2s;
 }
 
-main {
+.hero {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -207,22 +207,22 @@ main {
   background-color: hsl(0, 0%, 98%);
 }
 @media (min-width: 992px) {
-  main {
+  .hero {
     grid-template-columns: 55% 45%;
   }
 }
-main .hero-left {
+.hero .hero-left {
   width: 100%;
   grid-row: 2;
   padding: 6rem;
   padding-bottom: 4rem;
 }
 @media (min-width: 992px) {
-  main .hero-left {
+  .hero .hero-left {
     grid-row: 1;
   }
 }
-main .hero-left .hero-left__wrapper {
+.hero .hero-left .hero-left__wrapper {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -237,46 +237,46 @@ main .hero-left .hero-left__wrapper {
   gap: 2rem;
 }
 @media (min-width: 992px) {
-  main .hero-left .hero-left__wrapper {
+  .hero .hero-left .hero-left__wrapper {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
     width: 45rem;
   }
 }
-main .hero-left .hero-left__wrapper h1 {
+.hero .hero-left .hero-left__wrapper h1 {
   color: hsl(233, 26%, 24%);
   text-align: center;
   font-size: 3.6rem;
   width: 100%;
 }
 @media (min-width: 576px) {
-  main .hero-left .hero-left__wrapper h1 {
+  .hero .hero-left .hero-left__wrapper h1 {
     font-size: 4.4rem;
   }
 }
 @media (min-width: 992px) {
-  main .hero-left .hero-left__wrapper h1 {
+  .hero .hero-left .hero-left__wrapper h1 {
     text-align: left;
   }
 }
-main .hero-left .hero-left__wrapper p {
+.hero .hero-left .hero-left__wrapper p {
   font-size: 1.4rem;
   line-height: 1.5;
   width: 100%;
   text-align: center;
 }
 @media (min-width: 576px) {
-  main .hero-left .hero-left__wrapper p {
+  .hero .hero-left .hero-left__wrapper p {
     font-size: 1.8rem;
   }
 }
 @media (min-width: 992px) {
-  main .hero-left .hero-left__wrapper p {
+  .hero .hero-left .hero-left__wrapper p {
     text-align: left;
   }
 }
-main .hero-right {
+.hero .hero-right {
   position: relative;
   width: 100%;
   height: 29rem;
@@ -293,37 +293,37 @@ main .hero-right {
   overflow-y: visible;
 }
 @media (min-width: 420px) {
-  main .hero-right {
+  .hero .hero-right {
     height: 40rem;
   }
 }
 @media (min-width: 992px) {
-  main .hero-right {
+  .hero .hero-right {
     background-image: url("./images/bg-intro-desktop.svg");
     background-size: 150% 150%;
     background-position: 0 -15rem;
   }
 }
-main .hero-right img {
+.hero .hero-right img {
   position: absolute;
   width: 29.5rem;
   top: -10.5rem;
 }
 @media (min-width: 420px) {
-  main .hero-right img {
+  .hero .hero-right img {
     top: -14rem;
     width: 40rem;
   }
 }
 @media (min-width: 992px) {
-  main .hero-right img {
+  .hero .hero-right img {
     top: -7rem;
     right: -8rem;
     width: 45rem;
   }
 }
 @media (min-width: 1200px) {
-  main .hero-right img {
+  .hero .hero-right img {
     top: -9rem;
     right: -8rem;
     width: 50rem;
