@@ -457,6 +457,19 @@ header .mobile-menu__wrapper .mobile-menu ul li:hover {
           align-items: center;
   gap: 2rem;
   background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.07);
+          box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.07);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.articles-section .articles-section__wrapper .article:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 .articles-section .articles-section__wrapper .article img {
   width: 100%;
@@ -474,6 +487,7 @@ header .mobile-menu__wrapper .mobile-menu ul li:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 2rem 0;
   gap: 1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
